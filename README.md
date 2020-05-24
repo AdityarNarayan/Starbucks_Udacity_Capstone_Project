@@ -1,13 +1,13 @@
 # Starbucks_Udacity_Capstone_Project
 
 ### Table of contents
-1. Installtion
-2. Required Libraries
-3. Project Motivation
-4. File Description
-5. Model Observation
-6. Conclusion
-7. Medium Blog Post
+1. [Installtion](https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project#installation)
+2. [Required Libraries](https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project#required-libraries)
+3. [Project Motivation](https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project#project-motivation)
+4. [File Description](https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project#file-description)
+5. [Model Observation](https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project#model-observations)
+6. [Conclusion](https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project#conclusion)
+7. [Medium Blog Post](https://medium.com/@adityananda14/data-science-project-analysis-of-starbucks-promotional-offers-b20d895fed7e)
  
 ### Installation
 For running this project you need to install progressbar2 and XGBoost in your IDE terminal.
@@ -67,5 +67,5 @@ Type of offer
 
 ### Blog_Post
 
-I have also written which gives you a breif summary about my project.
+I have also written a blog post which gives you a breif summary about my project.
 https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project
