@@ -8,6 +8,7 @@
 5. [Model Observation](https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project#model-observations)
 6. [Conclusion](https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project#conclusion)
 7. [Medium Blog Post](https://medium.com/@adityananda14/data-science-project-analysis-of-starbucks-promotional-offers-b20d895fed7e)
+8. Referrence
  
 ### Installation
 For running this project you need to install progressbar2 and XGBoost in your IDE terminal.
@@ -56,24 +57,29 @@ Results suggest that the random forest model has the best training data accuracy
 
 ### Conclusion
 
-We have chhosen two questions to answer in this project:
+We have chosen two questions to answer in this project:
 
 1. What are the main drivers of offer effectiveness?
 2. Explore if we can predict whether a user would take up an offer?
-We have performed many steps to answer the above questions but most crucial steps was to analysing the data, combining the dataframes( portfolio, offer_df, transaction_df and profile), building the model and assesing our model with the help of metrics that is accuracy and f1 score.
 
-To answer the first question we have used Heat map which provided us the effective drivers whic are played a vital role in our model prediction. Those effective drivers are given below.
+We have performed many steps to answer the above questions but most crucial steps was to analysing the data, combining the dataframes( portfolio, offer_df, transaction_df and profile), building the model and assessing our model with the help of metrics that is accuracy and f1 score.
 
-1. Offer difficulty 
+To answer the first question we have used Heat map which provided us the effective drivers which are played a vital role in our model prediction. Those effective drivers are given below.
+
+1. Offer difficulty
 2. Offer duration
 3. Offer reward
 4. Type of offer
 
-To answer the 2nd question we have used machine learning models like Naive Predictor, Logestic Regression, RandomForest Classifier and XGBoost classifier. From the analysis we come to know that random forrest clasifier has the best acuuracy and f1 score among the other models. However, it took 30 minutes to compute the results so as a alternative I have use XGBoost model to predict the result with almost same accuaracy and f1score. We have pridected the result of test set with the accuracy and f1 score of 91% which suggest that our model is not overfitted.
+To answer the 2nd question we have used machine learning models like Naive Predictor, Logestic Regression, RandomForest Classifier and XGBoost classifier. From the analysis we come to know that random forrest clasifier has the slightly better acuuracy but f1 score is same for both models. However, Random Forest took 30 minutes to compute the results so as a alternative I have use XGBoost model to predict the result with almost same accuracy and f1score. We have pridicted the result of test set with the accuracy and f1 score of 91% which suggest that our model is not over fitted.
 
-However there is always a room for improvmet since the most of the effective drivers are related to offers hence those who wants to improve the model can use differnt features like succes rate vs difficulty ratio or difficulty vs duration of offers to improve Randomforest model.
+However there is always a room for improvement since the most of the effective drivers are related to offers hence those who wants to improve the model can use different features like succes rate vs difficulty ratio or difficulty vs duration of offers to improve Randomforest model.
 
 ### Blog_Post
 
 I have also written a blog post which gives you a breif summary about my project.
 https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project
+
+### Referrence
+
+I took some refference from this blog post for my project and have immprove the model accuracy score from 76% to 91%.
