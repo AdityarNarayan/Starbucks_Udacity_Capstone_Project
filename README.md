@@ -8,7 +8,7 @@
 5. [Model Observation](https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project#model-observations)
 6. [Conclusion](https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project#conclusion)
 7. [Medium Blog Post](https://medium.com/@adityananda14/data-science-project-analysis-of-starbucks-promotional-offers-b20d895fed7e)
-8. Referrence
+8. [Referrence](https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project/blob/master/README.md#referrence)
  
 ### Installation
 For running this project you need to install progressbar2 and XGBoost in your IDE terminal.
@@ -41,15 +41,15 @@ Observations of the Model
 
 Model ranking based on training data accuracy
 
-1. RandomForestClassifier model accuracy: 0.944
-2. XGBoost Classifier model accuracy: 0.916
+1. RandomForestClassifier model accuracy: 0.913
+2. XGBoost Classifier model accuracy: 0.912
 3. LogisticRegression model accuracy: 0.877
 4. Naive predictor accuracy: 0.472
 
 Model ranking based on training data F1-score
 
-1.RandomForestClassifier model accuracy: 0.942
-2. XGBoost Classifier model accuracy: 0.913
+1.RandomForestClassifier model accuracy: 0.911
+2. XGBoost Classifier model accuracy: 0.910
 3. LogisticRegression model accuracy: 0.865
 4. Naive predictor accuracy: 0.641
 
