@@ -68,6 +68,7 @@ To answer the first question we have used Heat map which provided us the effecti
 2. Offer duration
 3. Offer reward
 4. Type of offer
+
 To answer the 2nd question we have used machine learning models like Naive Predictor, Logestic Regression, RandomForest Classifier and XGBoost classifier. From the analysis we come to know that random forrest clasifier has the best acuuracy and f1 score among the other models. However, it took 30 minutes to compute the results so as a alternative I have use XGBoost model to predict the result with almost same accuaracy and f1score. We have pridected the result of test set with the accuracy and f1 score of 91% which suggest that our model is not overfitted.
 
 However there is always a room for improvmet since the most of the effective drivers are related to offers hence those who wants to improve the model can use differnt features like succes rate vs difficulty ratio or difficulty vs duration of offers to improve Randomforest model.
