@@ -83,3 +83,4 @@ https://github.com/AdityarNarayan/Starbucks_Udacity_Capstone_Project
 ### Referrence
 
 I took some refference from this blog post for my project and have immprove the model accuracy score from 76% to 91%.
+https://medium.com/@susmitha.gudapati/starbucks-capstone-challenge-7dd19432c481
