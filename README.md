@@ -56,14 +56,21 @@ Results suggest that the random forest model has the best training data accuracy
 
 ### Conclusion
 
-The problem that we have chose to solve was to build a model that predicts whether a customer will respond to an offer. Our strategy for solving this problem has mainly two steps. First, we combined offer portfolio, customer profile, and transaction data. Second, we assessed the accuracy and F1-score of a naive model that assumes all offers were successful. Third, we have compared the performance of logistic regression , random forest models and XGBoost Model. This analysis suggests that a random forest model has the best training data accuracy and F1-score. Analysis suggests that random forest model has a training data accuracy of 0.944 and an F1-score of 0.942. The test data set accuracy of 0.914 and F1-score of 0.910 suggests that the random forest model that we have constructed did not overfit the training data.
+We have chhosen two questions to answer in this project:
 
-"Feature importance" refers to a numerical value that describes a feature's contribution to building a model that maximizes its evaluation metric. A random forest classifier is an example of a model that estimates feature importance during training. My analysis of the Starbucks Capstone Challenge customer offer effectiveness training data suggests that the top five features based on their importance are:
+1. What are the main drivers of offer effectiveness?
+2. Explore if we can predict whether a user would take up an offer?
+We have performed many steps to answer the above questions but most crucial steps was to analysing the data, combining the dataframes( portfolio, offer_df, transaction_df and profile), building the model and assesing our model with the help of metrics that is accuracy and f1 score.
 
-Offer difficulty (how much money a customer must spend to complete an offer)
-Offer duration
-Offer reward
-Type of offer
+To answer the first question we have used Heat map which provided us the effective drivers whic are played a vital role in our model prediction. Those effective drivers are given below.
+
+1. Offer difficulty 
+2. Offer duration
+3. Offer reward
+4. Type of offer
+To answer the 2nd question we have used machine learning models like Naive Predictor, Logestic Regression, RandomForest Classifier and XGBoost classifier. From the analysis we come to know that random forrest clasifier has the best acuuracy and f1 score among the other models. However, it took 30 minutes to compute the results so as a alternative I have use XGBoost model to predict the result with almost same accuaracy and f1score. We have pridected the result of test set with the accuracy and f1 score of 91% which suggest that our model is not overfitted.
+
+However there is always a room for improvmet since the most of the effective drivers are related to offers hence those who wants to improve the model can use differnt features like succes rate vs difficulty ratio or difficulty vs duration of offers to improve Randomforest model.
 
 ### Blog_Post
 
